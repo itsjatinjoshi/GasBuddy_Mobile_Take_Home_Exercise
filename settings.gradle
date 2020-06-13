@@ -1,0 +1,2 @@
+rootProject.name='GasBuddy Mobile Take Home Exercise'
+include ':app'
