@@ -9,7 +9,7 @@ simpleArcLoader to show progress-bar, swipeRefeshLayout to load new content from
 -In this application, I created 2 activities, the first activity is MainActivity to display a list of images with titles, 
 and the second activity is ImageDetail activity to display the detail about that image.
 
-- in MainActivity, the view groups I used are:
+# in MainActivity, the view groups I used are:
 
 -SwipeRefreshLayout,
 -one Toolbar, 
@@ -23,7 +23,9 @@ and the second activity is ImageDetail activity to display the detail about that
 -also, implement onClickListener with the RecyclerAdapet, so second activity will open and show the
 details about the images.
 
--In ImageDetail activity, use the 
+# In ImageDetail activity, use the 
+
+
 -ConstraintsLayout, CardView, ImageView, SimpleArcLoader, TextView.
 
 -SimpleArcLoaded - to show the progress of loading the list of images,
@@ -31,7 +33,7 @@ details about the images.
 -ImagesView to display the full view of images,
 
 
-Others functionality :
+# Others functionality :
 -Implements some animation on the RecyclerView, in Main activity,
 -Hide the EditText in MainActivity and display it when the user clicks on the Vector Icon of Search.
 -implement onClickListenr On the image in ImageDetail to maximize the image to full screen.
